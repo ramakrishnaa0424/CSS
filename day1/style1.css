@@ -1,18 +1,24 @@
 *{
    
     background-color:aqua;
+    margin: 2% 10%; 
    /* text-align: center; */
 }
 div{
     align-content:center;
     text-align:start;
-        margin: 4% 13% 7% 13%;
+        margin:4% 10% 10% 10%;
         /* margin-bottom: 5%; */
         /* padding: */
         /* border-left-width: 20%; */
     
-    background-color: rgb(244, 97, 209);
+        
+    }
+    .m{
+        /* margin: %; */
+        background-color: rgb(244, 97, 209);
 }
+
 .c{
     background-color: yellow;
     text-align: center;
