@@ -1,0 +1,125 @@
+.d {
+    margin: 5% 5%;
+    height: 30vh;
+    width: 38vw;
+    padding: 10px 10px 10px 10px;
+    border-radius: 3%;
+  }
+  .pp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .d1 {
+    background-color: rgb(241, 159, 221);
+    float: left;
+  }
+  .d2 {
+    background-color: aqua;
+    float: right;
+  }
+  .d3 {
+    background-color: rgb(228, 83, 83);
+    float: left;
+  }
+  .d4 {
+    background-color: blueviolet;
+    float: right;
+  }
+  .d5 {
+    background-color: cadetblue;
+    float: left;
+  }
+  .d6 {
+    background-color: rgb(97, 242, 99);
+    float: right;
+  }
+  span {
+    font-size: xxx-large;
+  }
+  div {
+    font-size: x-large;
+    align-content: center;
+    text-align: center;
+  }
+  .p1 {
+    font-size: x-large;
+    border: 5px solid rgb(231, 158, 55);
+    color: rgb(204, 9, 19);
+    border-radius: 10%;
+    background-color: chartreuse;
+    text-shadow: 20px 20px 20px red;
+    text-decoration: dotted;
+  }
+  .d7 {
+    background-color: bisque;
+    margin: 5% 5%;
+    height: 15vh;
+    width: 40vw;
+    padding: 10px 10px 10px 10px;
+    border-radius: 3%;
+    float: left;
+  }
+  .d8 {
+    background-color: rgb(7, 117, 119);
+    margin: 3% 3%;
+    height: 15vh;
+    width: 40vw;
+    padding: 10px;
+    border-radius: 3%;
+    float: right;
+  }
+  .text {
+    width: 20%;
+    height: 6vh;
+    margin: 3%;
+    padding: 3%;
+    border-radius: 3%;
+    
+  }
+  .decr {
+    background-color: greenyellow;
+    text-indent: 500px;
+    font-size: xx-large;
+    /* text-decoration-color: rgb(230, 145, 19); */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .d9 {
+    background-color: blueviolet;
+    /* text-decoration-thickness: 60px; */
+  }
+  .d10 {
+    background-color: rgb(226, 152, 40);
+  }
+  .d11 {
+    background-color: cadetblue;
+  }
+  .d12 {
+    background-color: chocolate;
+  }
+  .d13 {
+    background-color: rgb(58, 226, 58);
+  }
+  .d14 {
+    background-color: rgb(18, 47, 47);
+  }
+  .d15 {
+    background-color: blueviolet;
+  }
+  .d16 {
+    background-color: rgb(173, 14, 179);
+  }
+  .d17 {
+    background-color: rgb(12, 177, 222);
+  }
+  .d18 {
+    background-color: rgb(62, 17, 209);
+  }
+  .d19 {
+    background-color: rgb(169, 181, 157);
+  }
+  .d20 {
+    background-color: rgb(226, 46, 46);
+  }
+  
