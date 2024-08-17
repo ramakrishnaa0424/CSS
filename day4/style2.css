@@ -1,0 +1,36 @@
+.dropdown {
+  display: inline-block;
+}
+.dropdown button {
+  background-color: rgb(122, 130, 130);
+  padding: 20px;
+  color: aliceblue;
+  cursor: pointer;
+  font-size: large;
+  border: none;
+  margin-left: 40vw;
+}
+.dropdown a {
+  display: block;
+  text-decoration: none;
+  color: rgb(251, 251, 252);
+  padding: 10px;
+  font-size: 17px;
+}
+.dropdown .content {
+  background-color: rgb(159, 148, 148);
+  width: 10%;
+  box-shadow: 2px 2px 5px rgb(147, 93, 147);
+  display: none;
+  margin-left: 40%;
+}
+.dropdown:hover .content {
+  display: block;
+  position: absolute;
+}
+.dropdown a:hover {
+  background-color: rgb(66, 181, 181);
+}
+.dropdown:hover button {
+  background-color: rgb(152, 100, 100);
+}

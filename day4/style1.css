@@ -1,0 +1,46 @@
+h1 {
+  margin-left: 45%;
+  color: rgb(47, 3, 128);
+  font-style: italic;
+  font-weight: bolder;
+}
+table td {
+  background-color: hsl(208, 100%, 97%);
+  width: 5vw;
+  height: 10vh;
+  position: relative;
+  left: 27vw;
+  top: 1vh;
+}
+table tr #even:hover{
+  background-color: aqua ;
+}
+#odd:hover{
+  background-color: blueviolet;
+}
+
+
+#tr1 > td:nth-child(even) {
+  background-color: black;
+}
+#tr2 > td:nth-child(odd) {
+  background-color: black;
+}
+#tr3 > td:nth-child(even) {
+  background-color: black;
+}
+#tr4 > td:nth-child(odd) {
+  background-color: black;
+}
+#tr5 > td:nth-child(even) {
+  background-color: black;
+}
+#tr6 > td:nth-child(odd) {
+  background-color: black;
+}
+#tr7 > td:nth-child(even) {
+  background-color: black;
+}
+#tr8 > td:nth-child(odd) {
+  background-color: black;
+}

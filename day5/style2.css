@@ -1,0 +1,153 @@
+header {
+  background-color: rgb(255, 255, 255);
+  height: 7vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 2vh;
+  position: fixed;
+  z-index: 7;
+  right: 0%;
+  left: 0%;
+  top: 0;
+}
+.title {
+  position: absolute;
+  left: 4%;
+  letter-spacing: 3px;
+  color: rgb(19, 19, 19);
+  font-size: 18px;
+  top: 24px;
+}
+.navbar {
+  position: absolute;
+  right: 4%;
+  word-spacing: 40px;
+  letter-spacing: 3px;
+}
+a {
+  text-decoration: none;
+  font-style: normal;
+  color: black;
+}
+.image1 {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  margin-top: 6%;
+}
+.imagetext {
+  position: absolute;
+  left: 4%;
+  bottom: 2%;
+  font-size: xxx-large;
+  color: rgba(255, 255, 255, 0.529);
+  font-weight: 600;
+  letter-spacing: 4px;
+}
+a:hover {
+  background-color: rgb(208, 209, 209);
+  padding: 8px;
+  border-width: 10px;
+}
+.image2 {
+  margin-top: 10%;
+  height: 80vh;
+  width: 34vw;
+  border-radius: 1%;
+}
+.page2 {
+  display: inline-flex;
+  margin-left: 10%;
+  padding-left: 5%;
+}
+.text1 {
+  flex-wrap: wrap;
+  align-items: center;
+  padding-left: 7%;
+  right: 10%;
+  margin-top: 10%;
+  align-items: flex-start;
+  margin-right: 15%;
+}
+.s {
+  text-align: center;
+  letter-spacing: 5px;
+}
+.s1 {
+  margin-left: 24%;
+}
+.para1 {
+  font-size: 18px;
+  text-indent: 20px;
+}
+.para2 {
+  font-size: 18px;
+  text-indent: 20px;
+  color: rgba(46, 45, 45, 0.367);
+}
+.page3 {
+  display: flex;
+  margin-left: 6%;
+  padding-left: 0%;
+  justify-content: space-evenly;
+}
+.image3 {
+  margin-top: 10%;
+  height: 100vh;
+  width: 34vw;
+  border-radius: 1%;
+}
+.menu1 {
+  text-align: center;
+  margin-top: 15%;
+  letter-spacing: 4px;
+}
+
+h2 {
+  letter-spacing: 5px;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.741);
+}
+h4 {
+  color: rgba(46, 45, 45, 0.367);
+}
+.details {
+  margin-left: 15%;
+  margin-right: 10%;
+}
+.input {
+  border: 0px;
+  border-bottom: solid rgb(223, 218, 218);
+  width: 70vw;
+  font-size: large;
+  line-height: 80px;
+}
+.Contact {
+  letter-spacing: 5px;
+  font-size: 50px;
+  font-weight: lighter;
+}
+h3 {
+  color: rgb(90, 90, 185);
+}
+button {
+  font-size: large;
+  border: 2px solid silver;
+  border: none;
+  height: 5vh;
+  width: 13vw;
+
+  background-color: silver;
+}
+
+footer {
+  background-color: silver;
+  margin-top: 5%;
+  padding-top: 32px !important;
+  padding-bottom: 32px !important;
+  width: 100%;
+  height: 10vh;
+  text-align: center;
+}

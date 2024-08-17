@@ -1,0 +1,105 @@
+
+.container {
+  background-color: rgb(213, 216, 216);
+  height: 70vh;
+  position: sticky;
+  top: 20vh;
+  width: 30vw;
+  bottom: 90%;
+  border: 5px solid blue;
+    border-radius: 5%;
+  margin-left: 35vw;
+  margin-top: 5vh;
+  margin-bottom: 20vh;
+  overflow:auto;
+  background-image: url(https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/1280px-Flag_of_India.svg.png);
+  background-size: 100% 90%;
+  z-index: 4;
+  background-position:40%;
+}
+
+img{
+    width: 60%;
+    height: 30vh;
+}
+.img1 {
+  width: 12%;
+  height: 90%;
+  margin-left: 0%;
+  padding-top: 0%;
+  position: absolute;
+  left: 2%;
+  top: 3%;
+  background-color: white;
+}
+span::after{
+    content: "📞  ≣";
+    margin-left: 30%;
+}
+
+
+.title {
+  font-size: xx-large;
+  position: sticky;
+  top: 0%;
+  left: 0%;
+  background-color: rgb(78, 128, 177);
+  width: 100%;
+  color: rgb(187, 189, 189);
+  height: 7vh;
+  text-indent: 18%;
+}
+.left {
+  text-align: left;
+  line-height: 2;
+  color:rgb(13, 35, 159);
+  margin-right: 35%;
+font-size: 18px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-style: italic;
+}
+.right {
+  text-align: right;
+  line-height: 2;
+  color: rgb(28, 29, 27);
+  font-size: 18px;
+ margin-left: 35%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.date {
+  position: sticky;
+  top: 10%;
+  background-color:black;
+  text-align: center;
+  font-size: x-large;
+  color: rgb(249, 249, 249);
+}
+
+.textspace {
+  background-color: antiquewhite;
+  width: 28.9vw;
+  height: 9%;
+  position: sticky;
+  bottom: 0%;
+}
+input{
+    width: 70%;
+    height: 5vh;
+    border-radius: 7%;
+    
+}
+input:hover{
+  background-color: rgb(134, 84, 84);
+}
+.emoji::before{
+    content:"🤗";
+    position: sticky;
+    bottom: 0%;
+    font-size: x-large;
+    }
+    .emoji::after{
+        content: "📸🎙️";
+        font-size:25px;
+        margin-left: 3%;
+    }
+  
