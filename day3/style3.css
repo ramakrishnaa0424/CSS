@@ -1,18 +1,16 @@
 
 .container {
   background-color: rgb(213, 216, 216);
-  height: 70vh;
+  height: 85vh;
   position: sticky;
-  top: 20vh;
+  top: 25vh;
   width: 30vw;
-  bottom: 90%;
-  border: 5px solid blue;
-    border-radius: 5%;
+  border: 5px solid rgb(8, 8, 8);
+    border-radius: 8px;
   margin-left: 35vw;
   margin-top: 5vh;
-  margin-bottom: 20vh;
-  overflow:auto;
-  background-image: url(https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/1280px-Flag_of_India.svg.png);
+  overflow:scroll;
+  background-image: url(https://www.bhmpics.com/downloads/telegram-wallpaper/1.3d8c2f2c82c1c9ef1e27be645cd1aa17.jpg);
   background-size: 100% 90%;
   z-index: 4;
   background-position:40%;
@@ -33,8 +31,9 @@ img{
   background-color: white;
 }
 span::after{
-    content: "📞  ≣";
+    content: "📞 🎥 ≣";
     margin-left: 30%;
+    font-size: x-large;
 }
 
 
@@ -69,8 +68,11 @@ font-style: italic;
 .date {
   position: sticky;
   top: 10%;
-  background-color:black;
+  background-color:rgba(29, 27, 27, 0.829);
+  margin-right: 33%;
+  margin-left: 37%;
   text-align: center;
+  border-radius: 25px;
   font-size: x-large;
   color: rgb(249, 249, 249);
 }
@@ -85,11 +87,11 @@ font-style: italic;
 input{
     width: 70%;
     height: 5vh;
-    border-radius: 7%;
+    border-radius: 7px;
     
 }
 input:hover{
-  background-color: rgb(134, 84, 84);
+  background-color: rgb(187, 166, 166);
 }
 .emoji::before{
     content:"🤗";
@@ -101,5 +103,8 @@ input:hover{
         content: "📸🎙️";
         font-size:25px;
         margin-left: 3%;
+    }
+    body{
+      background-color: rgb(204, 213, 210);
     }
   
