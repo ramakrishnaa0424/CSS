@@ -58,7 +58,7 @@ a:hover {
   border-radius: 1%;
 }
 .page2 {
-  display: inline-flex;
+  display: flex;
   margin-left: 10%;
   padding-left: 5%;
 }
@@ -151,3 +151,57 @@ footer {
   height: 10vh;
   text-align: center;
 }
+@media screen and (width>600px) and (width<800){
+  body{
+    background-color: violet;
+  }
+
+}
+@media only screen and (width<600px) {
+  body {
+    background-color: rgb(49, 190, 187);
+  }
+  header{
+    display: grid;
+    padding-top: 70px;
+    grid-template-columns: auto;
+  }
+  .page2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .image1{
+    width: 100vw;
+  }
+  .image2 {
+    width: 100%;
+  }
+  .para1,.para2{
+    background-color: yellow;
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+  }
+  .image3 {
+    margin-left: 0px;
+    width: 100%;
+  }
+  .imagetext {
+    font-size: 20px;
+  }
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+  .page3{
+    display: grid;
+    grid-template-columns: auto;
+
+  }
+  .image3{
+    width: 100%;
+    margin-left: 0px;
+  }
+}
+
+

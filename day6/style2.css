@@ -59,3 +59,41 @@ footer {
   width: 50px;
   height: 50px;
 }
+@media screen and (width>600px) and (width<800px){
+
+  body{
+    background-color: yellow;
+  }
+  main{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 0%;
+  }
+  img{
+    width: 100%;
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 600px){
+
+  main{
+    display: grid;
+    grid-template-columns: auto ;
+    gap: 100px;
+    margin: 0%;
+
+  }
+  body{
+    background-color: rgb(160, 31, 31);
+  }
+  img{
+    width: 100%;
+   }   
+ h2{
+    font-size: xx-large;
+  }
+  h4{
+    font-size: x-large;
+  }
+}
